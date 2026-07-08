@@ -5,14 +5,22 @@
 tag @e remove yk.lib.find_aimtarget.min
 scoreboard players reset @e yk.lib.global
 
-## 対象を絞る
+## 対象を絞る (yk.lib.find_aimtarget.exceptionが付いたエンティティは除外される)
 
-execute anchored feet positioned ^ ^ ^ as @e[distance=0.01..] \
-    positioned ^ ^ ^-100000 if entity @s[distance=..100050] positioned ^ ^ ^100000 \
-    rotated ~30 ~ positioned ^100000 ^ ^ if entity @s[distance=..100000] positioned ^-100000 ^ ^ rotated ~-30 ~ \
-    rotated ~-30 ~ positioned ^-100000 ^ ^ if entity @s[distance=..100000] positioned ^100000 ^ ^ rotated ~30 ~ \
+### 能あるエンティティに絞る
+
+execute as @e[nbt={Brain:{}},tag=!yk.lib.find_aimtarget.exception] \
     positioned as @n facing entity @s feet positioned ^ ^ ^1.0 run \
         function yk.lib:find_aimtarget/summon_marker
+
+### 前方のエンティティを指定する場合のサンプル
+
+# execute anchored feet positioned ^ ^ ^ as @e[distance=0.01..,tag=!yk.lib.find_aimtarget.exception] \
+#     positioned ^ ^ ^-100000 if entity @s[distance=..100050] positioned ^ ^ ^100000 \
+#     rotated ~30 ~ positioned ^100000 ^ ^ if entity @s[distance=..100000] positioned ^-100000 ^ ^ rotated ~-30 ~ \
+#     rotated ~-30 ~ positioned ^-100000 ^ ^ if entity @s[distance=..100000] positioned ^100000 ^ ^ rotated ~30 ~ \
+#     positioned as @n facing entity @s feet positioned ^ ^ ^1.0 run \
+#         function yk.lib:find_aimtarget/summon_marker
 
 ## プレイヤーの1.0先から一番近いやつにタグをつける
 
