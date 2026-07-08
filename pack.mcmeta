@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "\"Trail Treatment\" datapack",
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": 107
+  }
+}
