@@ -1,5 +1,11 @@
-# yk.lib:move_items/send_loop
-
+#|| --- CrossRefs --- ||#
+#|| @yk.lib:move_items/send_loop
+#||
+#||    # function
+#||        @yk.lib:move_items/.root
+#||        @yk.lib:move_items/send_loop
+#||
+#|| ------ End ------ ||#
 ## SendItemを一時保存
 
 $data modify storage yk.lib:global move_items.CurrentSendItem set from storage yk.lib:inputs SendItems[$(SendIndex)]
@@ -9,7 +15,6 @@ $data modify storage yk.lib:global move_items.CurrentSendItem set from storage y
 data modify storage yk.lib:global move_items.compare.0.Item set from storage yk.lib:global move_items.CurrentSendItem 
 data remove storage yk.lib:global move_items.compare.0.Item.count
 data remove storage yk.lib:global move_items.compare.0.Item.Slot
-
 
 tellraw @a [{score:{name:"$SendIndex",objective:"yk.lib.global"}},{text:" "},{score:{name:"$MaxSendIndex",objective:"yk.lib.global"}}]
 

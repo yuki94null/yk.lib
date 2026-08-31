@@ -1,0 +1,6 @@
+{
+    "values": [
+        {"id": "bamboo", "required": false},
+        {"id": "shelf_mushroom", "required": false}
+    ]
+}

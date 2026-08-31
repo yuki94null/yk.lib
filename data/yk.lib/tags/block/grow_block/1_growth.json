@@ -1,0 +1,6 @@
+{
+    "values": [
+        {"id": "minecraft:torchflower_crop", "required": false},
+        {"id": "minecraft:pitcher_crop", "required": false}
+    ]
+}

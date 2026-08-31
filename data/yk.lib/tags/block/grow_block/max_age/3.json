@@ -1,0 +1,6 @@
+{
+    "values": [
+        {"id": "beetroots", "required": false},
+        {"id": "sweet_berry_bush", "required": false}
+    ]
+}

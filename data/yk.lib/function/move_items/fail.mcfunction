@@ -1,3 +1,12 @@
+#|| --- CrossRefs --- ||#
+#|| @yk.lib:move_items/fail
+#||
+#||    # function
+#||        @yk.lib:move_items/recieve_loop
+#||
+#|| ------ End ------ ||#
+
+
 tellraw @a [{text:"    ="}]
 
 data modify storage yk.lib:inputs Item set from storage yk.lib:global move_items.tmp.2

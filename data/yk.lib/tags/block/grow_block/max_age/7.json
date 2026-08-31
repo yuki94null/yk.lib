@@ -1,0 +1,9 @@
+{
+    "values": [
+        {"id":"minecraft:carrots", "required": false},
+        {"id":"minecraft:potatoes", "required": false},
+        {"id":"minecraft:wheat", "required": false},
+        {"id":"minecraft:melon_stem", "required": false},
+        {"id":"minecraft:pumpkin_stem", "required": false}
+    ]
+}

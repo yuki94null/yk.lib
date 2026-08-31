@@ -1,18 +1,21 @@
-# yk.lib:get_worldspawn/in_the_end
+#|| --- CrossRefs --- ||#
+#|| @yk.lib:get_worldspawn/in_the_end
+#||
+#||    # function
+#||        @yk.lib:get_worldspawn/.root
+#||
+#|| ------ End ------ ||#
 
 ## フォースロードしてアマスタを現世に持ってくる(もともとロードされてたら戻せるようにしておく)
-
-execute store success storage yk.lib:global get_worldspawn.AlreadyForceloaded byte 1.0 run forceload query 100 0
-forceload add 100 0
+    execute store success storage yk.lib:global get_worldspawn.AlreadyForceloaded byte 1.0 run forceload query 100 0
+    forceload add 100 0
 
 ## 帰還ポータル設置
-
-setblock ~ ~ ~ end_portal strict
+    setblock ~ ~ ~ end_portal strict
 
 ## アマスタ出して返す
+    summon armor_stand ~ ~ ~ {Tags:[yk.lib.get_worldspawn.marker],Invisible:true,Small:true}
 
-summon armor_stand ~ ~ ~ {Tags:[yk.lib.get_worldspawn.marker],Invisible:true,Small:true}
+## scheduleで3tick後に実行
 
-## scheduleで1tick後に実行
-
-schedule function yk.lib:get_worldspawn/after 3t append
+    schedule function yk.lib:get_worldspawn/after 3t append

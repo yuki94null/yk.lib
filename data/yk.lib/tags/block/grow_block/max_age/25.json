@@ -1,0 +1,8 @@
+{
+    "values": [
+        {"id": "cave_vines", "required": false},
+        {"id": "kelp", "required": false},
+        {"id": "twisting_vines", "required": false},
+        {"id": "weeping_vines", "required": false}
+    ]
+}

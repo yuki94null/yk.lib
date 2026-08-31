@@ -1,0 +1,6 @@
+{
+    "values": [
+        {"id": "pitcher_crop", "required": false},
+        {"id": "mangrove_propagule", "required": false}
+    ]
+}

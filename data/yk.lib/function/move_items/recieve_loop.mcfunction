@@ -1,5 +1,11 @@
-# yk.lib:move_items/recieve_loop
-
+#|| --- CrossRefs --- ||#
+#|| @yk.lib:move_items/recieve_loop
+#||
+#||    # function
+#||        @yk.lib:move_items/recieve_loop
+#||        @yk.lib:move_items/send_loop
+#||
+#|| ------ End ------ ||#
 ##
 
 $data modify storage yk.lib:global move_items.CurrentRecieveItem set from storage yk.lib:inputs RecieveItems[$(RecieveIndex)]

@@ -1,0 +1,28 @@
+{
+    "values": [
+        {"id": "#minecraft:crops", "required": false},
+
+        {"id": "minecraft:bamboo", "required": false},
+        {"id": "minecraft:shelf_mushroom", "required": false},
+
+        {"id": "minecraft:cocoa", "required": false},
+
+        {"id": "minecraft:nether_wart", "required": false},
+        {"id": "minecraft:beetroots", "required": false},
+        {"id": "minecraft:frosted_ice", "required": false},
+        {"id": "minecraft:sweet_berry_bush", "required": false},
+
+        {"id": "minecraft:mangrove_propagule", "required": false},
+
+        {"id": "minecraft:chorus_flower", "required": false},
+
+        {"id": "minecraft:fire", "required": false},
+        {"id": "minecraft:cactus", "required": false},
+        {"id": "minecraft:sugar_cane", "required": false},
+
+        {"id": "minecraft:cave_vines", "required": false},
+        {"id": "minecraft:kelp", "required": false},
+        {"id": "minecraft:twisting_vines", "required": false},
+        {"id": "minecraft:weeping_vines", "required": false}
+    ]
+}

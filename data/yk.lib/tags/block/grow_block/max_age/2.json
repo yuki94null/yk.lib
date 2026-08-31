@@ -1,0 +1,6 @@
+{
+    "values": [
+        {"id": "cocoa", "required": false},
+        {"id": "torchflower_crop", "required": false}
+    ]
+}

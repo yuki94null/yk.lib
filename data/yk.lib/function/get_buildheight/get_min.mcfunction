@@ -1,5 +1,10 @@
-# yk.lib:get_buildheight/get_min
-
+#|| --- CrossRefs --- ||#
+#|| @yk.lib:get_buildheight/get_min
+#||
+#||    # function
+#||        @yk.lib:get_buildheight/loop
+#||
+#|| ------ End ------ ||#
 ## Pos入れて死ぬ
 
 data modify storage yk.lib:outputs BuildHeight.min set from entity @s Pos[1]

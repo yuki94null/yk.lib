@@ -1,5 +1,5 @@
 {
     "values": [
-        "yrh.014:tick"
+        {"id": "yrh.014:tick", "required": false}
     ]
 }

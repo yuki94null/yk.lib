@@ -1,5 +1,10 @@
-# yk.lib:find_aimtarget/summon_marker
-
+#|| --- CrossRefs --- ||#
+#|| @yk.lib:find_aimtarget/summon_marker
+#||
+#||    # function
+#||        @yk.lib:find_aimtarget/.root
+#||
+#|| ------ End ------ ||#
 ## 位置出す
 
 tag @s add yk.lib.find_aimtarget

@@ -1,4 +1,11 @@
-# yk.lib:get_maxstacksize/.root
+#|| --- CrossRefs --- ||#
+#|| @yk.lib:get_maxstacksize/.root
+#||
+#||    # function
+#||        @yk.lib:move_items/empty
+#||        @yk.lib:move_items/fail
+#||
+#|| ------ End ------ ||#
 #
 # input: storage yk.lib:inputs get_maxstacksize.Item
 #
